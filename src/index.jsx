@@ -5,6 +5,7 @@ import App from './components/App';
 import Voting from './components/Voting';
 
 const routes = <Route component={App}>
+    <Route path="/results" component={Results} />
     <Route path="/" component={Voting} />
 </Route>;
 
